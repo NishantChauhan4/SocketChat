@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "hhttps://socketchat-ic7i.onrender.com/",
         secure: false,
         changeOrigin: true,
       },
