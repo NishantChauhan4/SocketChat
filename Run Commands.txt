@@ -1,0 +1,5 @@
+Backend-
+cd SocketChat -> npm run server
+
+Frontend- (Used vite)
+cd frontend -> npm run dev
