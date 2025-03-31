@@ -60,6 +60,11 @@ function Register() {
       <div
         className="w-full p-6 rounded-lg shadow-lg bg-gray-400/30 bg-clip-padding backdrop-filter
        backdrop-blur-lg"
+        style={{
+          backgroundColor: "rgba(156, 163, 175, 0.3)",
+          WebkitBackdropFilter: "blur(12px)",
+          backdropFilter: "blur(12px)",
+        }}
       >
         <h1 className="text-3xl font-bold text-center text-gray-300">
           Register <span className="text-gray-950">Socket Chat</span>

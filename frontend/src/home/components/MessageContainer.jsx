@@ -142,7 +142,7 @@ const MessageContainer = ({ onBackUser }) => {
           </div>
 
           <div
-            className="flex-auto"
+            className="flex-1 overflow-auto"
             style={{
               backgroundColor: "rgba(229, 231, 235, 1)",
             }}
