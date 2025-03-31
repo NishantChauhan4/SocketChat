@@ -146,7 +146,14 @@ const Sidebar = ({ onSelectUser }) => {
   };
 
   return (
-    <div className="w-auto h-full px-1">
+    <div
+      className="w-auto h-full px-1"
+      style={{
+        backgroundColor: "rgba(156, 163, 175, 0.3)",
+        WebkitBackdropFilter: "blur(12px)",
+        backdropFilter: "blur(12px)",
+      }}
+    >
       <div className="flex justify-between gap-2">
         <form
           onSubmit={handleSearchSubmit}

@@ -127,7 +127,7 @@ const MessageContainer = ({ onBackUser }) => {
               </div>
 
               <div className="flex justify-between mr-2 gap-2">
-                <div className="slef-center">
+                <div className="self-center">
                   <img
                     className="rounded-full w-6 h-6 md:w-10 md:h-10 cursor-pointer"
                     src={selectedConversation.profilepic}
@@ -141,7 +141,12 @@ const MessageContainer = ({ onBackUser }) => {
             </div>
           </div>
 
-          <div className="flex-1 overflow-auto">
+          <div
+            className="flex-auto"
+            style={{
+              backgroundColor: "rgba(229, 231, 235, 1)",
+            }}
+          >
             {loading && (
               <div className="flex w-full h-full flex-col justify-center items-center gap-4 bg-transaprent">
                 <div className="loading loading-spinner"></div>

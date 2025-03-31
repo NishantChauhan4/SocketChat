@@ -20,8 +20,12 @@ function Home() {
 
   return (
     <div
-      className="flex justify-between min-w-full md:min-w-[550px] md:max-w-[65%] px-2 h-[95%] md:h-full rounded-xl shadow-lg bg-gray-400/30 bg-clip-padding backdrop-filter
-         backdrop-blur-lg"
+      className="flex justify-between min-w-full md:min-w-[550px] md:max-w-[65%] px-2 h-[95%] md:h-full rounded-xl shadow-lg"
+      style={{
+        backgroundColor: "rgba(156, 163, 175, 0.3)",
+        WebkitBackdropFilter: "blur(12px)",
+        backdropFilter: "blur(12px)",
+      }}
     >
       <div
         className={`w-full py-2 md:flex ${isSidebarVisible ? "" : "hidden"}`}
